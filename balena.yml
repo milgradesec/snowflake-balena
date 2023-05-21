@@ -1,0 +1,28 @@
+name: Tor Snowflake Proxy
+type: sw.application
+joinable: true
+
+description: >-
+  Help Internet users circumvent censorship by running a Snowflake proxy and join thousands of volunteers from around the world fighting Internet censorship.
+
+post-provisioning: >-
+  Snowflake is a system that allows people from all over the world to access censored websites and applications.
+  Similar to how VPNs assist users in getting around Internet censorship, Snowflake helps you avoid being noticed 
+  by Internet censors by making your Internet activity appear as though you're using the Internet for a regular video or voice call.
+
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: https://github.com/milgradesec/snowflake-balena
+
+data:
+  defaultDeviceType: raspberrypi4-64
+  supportedDeviceTypes:
+    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi4-64
+    - generic-aarch64
+    - generic-amd64
+    - genericx86-64-ext
+version: 2.5.1
