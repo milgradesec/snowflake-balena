@@ -2,6 +2,6 @@ version: '2'
 
 services:
   proxy:
-    image: thetorproject/snowflake-proxy:v2.5.1
+    image: thetorproject/snowflake-proxy:v2.6.0
     network_mode: host
     restart: always

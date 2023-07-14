@@ -25,4 +25,4 @@ data:
     - generic-aarch64
     - generic-amd64
     - genericx86-64-ext
-version: 2.5.1
+version: 2.6.0
