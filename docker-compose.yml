@@ -3,5 +3,8 @@ version: '2'
 services:
   proxy:
     image: thetorproject/snowflake-proxy:v2.6.0
+    read_only: true
     network_mode: host
+    cap_drop:
+      - ALL
     restart: always
