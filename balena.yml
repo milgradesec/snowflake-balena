@@ -1,6 +1,6 @@
 name: Tor Snowflake Proxy
 type: sw.application
-version: 2.8.1
+version: 2.10.1
 joinable: true
 
 description: >-
