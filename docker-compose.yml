@@ -2,7 +2,7 @@ version: '2'
 
 services:
   proxy:
-    image: thetorproject/snowflake-proxy:v2.11.0
+    image: containers.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake:v2.11.0
     read_only: true
     network_mode: host
     cap_drop:
